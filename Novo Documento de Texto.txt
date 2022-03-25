@@ -1,0 +1,70 @@
+
+- HTML:  
+	Tags -  O último sobrescreve os demais.
+
+- Especificidade:
+
+	1º - Inline - <>
+	2º - Id - #
+	3º - Class - .
+	4º - Elementos - ROXO
+
+Seletor de classe + elemento tem mais forço do que apenas uma classe
+
+- Unidade de medidas
+
+ Os px são estaticos. 
+	Unidades relativas % são melhores para responsividade. 
+
+Tags que não levam conteúdo não precisam de fechamento, somente atributos. 
+
+Container pode ser uma tag MAIN ou DIV
+
+Atalho para criação de classe ".content"
+
+alt="" é importante para os controles de busca do google e acessibilidade, quanto melhor
+a descrição melhor será na busca do google.
+
+ul - lista não ordenada
+
+svg - Melhor pois consegue alterar a imagem no html, mehlor resolução, mais leve.
+
+max-width  - Fixa a largura da imagem
+margin - espaços laterais de uma caixa
+box model - margin, border, padding
+padding - preenchimento interno
+
+margin-left + margin-right: auto
+max-width;
+DEIXAM A IMAGEM CENTRALIZADA
+
+* - aplica as pripriedades para todos os elementos existentes na página
+
+Crossorigin permite a comunicação entre servidores
+
+rem - 1 = 16px
+
+.avatar span (seletor de classe dentro do elemento
+
+position: absolite, permite o empilhalmento de elementos, como se fosse
+um papel sobre o outro
+
+position relative: delimita o espaço em que o "absolute" tem pra se deslocar
+
+.avatar{
+position: relative;
+}
+
+.avatar span{
+position: absolute;
+}
+
+.avatar > img {          - Tem acesso ao elemento que está no primeiro nível
+}
+
+object-fit: cover - Faz com que a imagem fique proporcional e preencha todo o espaço
+
+z-index - tem acesso a profundidade
+
+o DISPLAY: flex libera o justify-contante e o gap. Sem ele não da pra usar.
+Trabalha com eixos e direcionamentos.  
